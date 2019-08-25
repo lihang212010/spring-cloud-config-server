@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: demo-springcloud-ConfigServer
+  cloud:
+    config:
+     server:
+      git:
+       uri: https://github.com/lihang212010/springcloud-Warehouse
+       username: lihang212010
+       password: 631533483lh..
+      
